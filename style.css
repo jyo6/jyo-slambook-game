@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 185, 245);
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+  padding: 2px;
+}
+.first {
+  color: rgb(48, 89, 212);
+}
+.second {
+  color: rgb(28, 82, 51);
+}
+
+.message {
+  color: rgb(109, 10, 10);
+  outline: white;
+}
+
+.left {
+  background-color: rgb(133, 185, 236);
+  border: white;
+
+  padding: 10px;
+  margin: 5px;
+}
+
+.left h4 {
+  color: rgb(22, 20, 20);
+  column-span: 100px;
+}
+
+#jyo span {
+  column-width: auto;
+}
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.hidden {
+  background-color: rgb(250, 216, 129);
+}
